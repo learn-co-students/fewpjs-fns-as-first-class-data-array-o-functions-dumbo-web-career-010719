@@ -1,12 +1,21 @@
 function wakeDog(dogName, dogBreed){
-	if (dogName === undefined){
+	if (dogName == undefined && dogBreed == undefined){
 		dogName = "Byron";
-	}
-	if (dogBreed === undefined){
 		dogBreed = "poodle";
+  		return (`Wake ${dogName} the ${dogBreed}`);
 	}
   return (`Wake ${dogName} the ${dogBreed}`);
 }
+
+// function wakeDog(dogName, dogBreed){
+// 	if (dogName == undefined){
+// 		dogName = "Byron";
+// 	}
+// 	if (dogBreed == undefined){
+// 		dogBreed = "poodle";
+// 	}
+//   return (`Wake ${dogName} the ${dogBreed}`);
+// }
 
 function leashDog(dogName, dogBreed){
 	if (dogName === undefined){
