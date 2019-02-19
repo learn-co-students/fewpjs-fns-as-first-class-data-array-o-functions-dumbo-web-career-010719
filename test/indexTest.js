@@ -1,5 +1,5 @@
-var dogName = "Byron"
-var dogBreed = "poodle"
+// var dogName = "Byron"
+// var dogBreed = "poodle"
 //
 // describe("index.js", () => {
 //   it("has a function wakeDog", () => {
