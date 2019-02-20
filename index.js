@@ -24,6 +24,9 @@ function unleashDog(dogName="Byron", dogBreed="poodle") {
 
 const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog]
 
-function exerciseDog(dogName, dogBreed) {
+function exerciseDog() {
+  // for (let i=0; i < routine.length; i++){
+  //   return routine[i]
+  // }
   routine
 }
